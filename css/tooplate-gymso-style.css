@@ -197,7 +197,7 @@
   -----------------------------------------*/
 
   .navbar {
-    background: var(--dark-color);
+    background: rgb(226, 226, 226);
     padding: 1rem;
   }
 
@@ -207,7 +207,7 @@
   }
 
   .navbar-brand {
-    color: #d3d3d3;
+    color: #6e6e6e;
     font-size: 30px;
     letter-spacing: 1px;
     font-weight: var(--font-weight-bold);
@@ -229,16 +229,16 @@
 
   .nav-item .nav-link {
     display: block;
-    color: var(--white-color);
-    font-size: var(--menu-font-size);
-    font-weight: var(--font-weight-normal);
-    text-transform: uppercase;
+    color: rgb(65, 65, 65);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
     padding: 2px 6px;
   }
 
   .nav-item .nav-link.active,
   .nav-item .nav-link:hover {
-    color: #FDE08D;
+    color: #000;
   }
 
   .navbar-toggler {
@@ -276,7 +276,7 @@
   }
 
   .navbar-toggler .navbar-toggler-icon {
-    background: #d3d3d3;
+    background: #888;
     transition: background 10ms 300ms ease;
     display: block;
     width: 30px;
@@ -292,7 +292,7 @@
     position: absolute;
     right: 0;
     left: 0;
-    background: #d3d3d3;
+    background: #888;
     width: 30px;
     height: 2px;
     content: '';
@@ -946,9 +946,12 @@ font-weight: 500;
       height: 90%;
     }
     .pp-inner{
-      padding: 30px 15px;
+      padding: 10px 15px;
     }
     .portfolio-section .para{
       font-size: 18px;
+    }
+    .general-info li span{
+      font-size: 5px !important;
     }
   }
